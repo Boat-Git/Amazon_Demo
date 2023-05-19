@@ -1,6 +1,6 @@
 *** Settings ***
 Library         SeleniumLibrary
-Resource        C:/Users/Natth/RF_Projects/Amazon/Resources/Amazon/PO/SearchResults.robot
+Resource        ${EXECDIR}/Resources/Amazon/PO/SearchResults.robot
 
 *** Variables ***
 ${PRODUCT_TITLE_LABEL} =            //*[@id="productTitle"]

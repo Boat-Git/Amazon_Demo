@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation       Use this layer to get data from external files
-Library             C:/Users/Natth/RF_Projects/Amazon/CustomLibs/Invalid_Credentials.py
+Library             ${EXECDIR}/CustomLibs/Invalid_Credentials.py
 
 *** Keywords ***
 Get CSV Data

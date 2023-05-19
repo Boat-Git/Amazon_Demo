@@ -1,8 +1,8 @@
 *** Settings ***
-Resource        C:/Users/Natth/RF_Projects/Amazon/Data/InputData.robot
-Resource        C:/Users/Natth/RF_Projects/Amazon/Resources/Common/CommonApp.robot
-Resource        C:/Users/Natth/RF_Projects/Amazon/Resources/Amazon/AmazonApp.robot
-Resource        C:/Users/Natth/RF_Projects/Amazon/Resources/DataManager/DataManager.robot
+Resource        ${EXECDIR}/Data/InputData.robot
+Resource        ${EXECDIR}/Resources/Common/CommonApp.robot
+Resource        ${EXECDIR}/Resources/Amazon/AmazonApp.robot
+Resource        ${EXECDIR}/Resources/DataManager/DataManager.robot
 
 Test Setup      CommonApp.Begin Web Test
 Test Teardown   CommonApp.End Web Test

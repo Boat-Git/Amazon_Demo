@@ -1,6 +1,6 @@
 *** Settings ***
 Library         SeleniumLibrary
-Resource        C:/Users/Natth/RF_Projects/Amazon/Data/InputData.robot
+Resource        ${EXECDIR}/Data/InputData.robot
 
 *** Variables ***
 ${SEARCHRESULTS_FIRST_PRODUCT_IMG} =    //*[@id="search"]/div[1]/div[1]/div/span[1]/div[1]/div[3]/div/div/div/div/div[1]/span/a/div/img

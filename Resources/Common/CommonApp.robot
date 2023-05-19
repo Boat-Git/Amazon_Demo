@@ -3,7 +3,7 @@ Library     SeleniumLibrary
 
 *** Keywords ***
 Begin Web Test
-#Initialize Selenium
+    #Initialize Selenium
     Set Selenium speed          .2s
     Set Selenium timeout        10s
     Open Browser                about:blank     ${BROWSER}

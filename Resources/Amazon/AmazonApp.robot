@@ -1,10 +1,10 @@
 *** Settings ***
-Resource        C:/Users/Natth/RF_Projects/Amazon/Resources/Amazon/PO/Landing.robot
-Resource        C:/Users/Natth/RF_Projects/Amazon/Resources/Amazon/PO/SignIn.robot
-Resource        C:/Users/Natth/RF_Projects/Amazon/Resources/Amazon/PO/TopNav.robot
-Resource        C:/Users/Natth/RF_Projects/Amazon/Resources/Amazon/PO/SearchResults.robot
-Resource        C:/Users/Natth/RF_Projects/Amazon/Resources/Amazon/PO/Product.robot
-Resource        C:/Users/Natth/RF_Projects/Amazon/Resources/Amazon/PO/Cart.robot
+Resource        ${EXECDIR}/Resources/Amazon/PO/Landing.robot
+Resource        ${EXECDIR}/Resources/Amazon/PO/SignIn.robot
+Resource        ${EXECDIR}/Resources/Amazon/PO/TopNav.robot
+Resource        ${EXECDIR}/Resources/Amazon/PO/SearchResults.robot
+Resource        ${EXECDIR}/Resources/Amazon/PO/Product.robot
+Resource        ${EXECDIR}/Resources/Amazon/PO/Cart.robot
 
 *** Keywords ***
 Login with Many Invalid credentials
